@@ -1,56 +1,48 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard API
 
-> Description the project.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Api.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML
+- CSS
+- JavaScript
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+You need to have git and/or zip extactor installed on your machine.
+You must have Node and NPM installed on your local machine.
+
 ### Setup
 
+- Clone this repo in your localmachine by following this command: git clone https://github.com/Solobarine/Leaderboard-Api.git
+- Move into the cloned repo.
 ### Install
+
+Run npm install to install the needed dependencies.
 
 ### Usage
 
-### Run tests
-
-### Deployment
+- Move into the dist folder and run dev-server to view the website on your browser.
+- If dev-server does not work, move into the dist folder and open the HTML page in the dist folder.
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Akpuru Solomon Barine
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Solobarine](https://github.com/Solobarine)
+- Twitter: [@SolomonAkpuru](https://twitter.com/SolomonAkpuru)
+- LinkedIn: [Solomon Akpuru](https://www.linkedin.com/mwlite/in/solomon-akpuru-17069b241)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -62,14 +54,6 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
