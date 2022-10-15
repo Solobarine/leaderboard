@@ -1,92 +1,91 @@
 #body {
-	background-image: url('./hollowed-boxes.svg');
+  background-image: url('./hollowed-boxes.svg');
 }
 
 #content {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .title {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 .show-results {
-	width: 30%;
-	margin-left: 15%;
-	background-color: #b6cc76;
+  width: 30%;
+  margin-left: 15%;
+  background-color: #b6cc76;
 }
 
 .add-input {
-	width: 30%;
-	padding-left: 10%;
-	background-color: #b6cc76;
+  width: 30%;
+  padding-left: 10%;
+  background-color: #b6cc76;
 }
 
 .after {
-	display: flex;
-	flex-direction: row;
-	margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
 }
 
 .refresh {
-	height: 40px;
-	width: 120px;
-	margin-top: 4%;
-	margin-left: 30%;
-	background-color: #00f;
-	border-radius: 20px;
-	color: #fff;
+  height: 40px;
+  width: 120px;
+  margin-top: 4%;
+  margin-left: 30%;
+  background-color: #00f;
+  border-radius: 20px;
+  color: #fff;
 }
 
 #enter-inputs {
-	font-size: 30px;
+  font-size: 30px;
 }
 
 .form {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #name,
 #score {
-	height: 40px;
-	margin-bottom: 5%;
+  height: 40px;
+  margin-bottom: 5%;
 }
 
 #submit {
-	width: 30%;
-	height: 40px;
-	margin-left: 70%;
-	border-radius: 15%;
-	background-color: #0f0;
+  width: 30%;
+  height: 40px;
+  margin-left: 70%;
+  border-radius: 15%;
+  background-color: #0f0;
 }
 
 .leader-score {
-	height: 30px;
-	padding-top: 10px;
-	margin-left: 0;
+  height: 30px;
+  padding-top: 10px;
+  margin-left: 0;
 }
 
 .leader-score:nth-child(odd) {
-	background-color: grey;
+  background-color: grey;
 }
 
 .results {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .footer {
-	height: 50px;
-	width: 100%;
-	background-color: gray;
-	margin-bottom: -60px;
+  height: 50px;
+  width: 100%;
+  background-color: gray;
+  margin-bottom: -60px;
 }
 
 .foot {
-	margin-left: 95%;
-	font-size: 20px;
-	color: #fff;
-	padding: 10px;
+  margin-left: 95%;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
 }
-
