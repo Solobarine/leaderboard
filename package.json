@@ -324,6 +324,7 @@
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "dev": "webpack --mode development",
+    "watch": "webpack --watch",
     "build": "webpack --mode production"
   },
   "repository": {

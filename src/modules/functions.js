@@ -18,3 +18,17 @@ export function refreshScores(e) {
   e.preventDefault();
   getApi();
 }
+
+export const showAddScore = (showAddScoreForm,  showScoresSection) => {
+  showAddScoreForm.classList.remove('hide')
+  showAddScoreForm.classList.add('show')
+  showScoresSection.classList.remove('show')
+  showScoresSection.classList.add('hide')
+}
+
+export const showScores = (showAddScoreForm,  showScoresSection) => {
+  showAddScoreForm.classList.remove('show')
+  showAddScoreForm.classList.add('hide')
+  showScoresSection.classList.remove('hide')
+  showScoresSection.classList.add('show')
+}
