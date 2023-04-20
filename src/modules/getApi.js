@@ -8,7 +8,7 @@ async function getApi() {
   const leadArray = await recieve.json();
   scoreBoard.innerHTML = '';
   for (let i = 0; i < leadArray.result.length; i += 1) {
-    scoreBoard.innerHTML += `<li class="leader-score">${leadArray.result[i].user} : ${leadArray.result[i].score}</li>`;
+    scoreBoard.innerHTML += `<li class="leader-score"><p>${leadArray.result[i].user}</p><p>:</p><p>${leadArray.result[i].score}</p></li>`;
   }
 }
 
