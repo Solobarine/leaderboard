@@ -4,6 +4,10 @@ const name = document.querySelector('#name');
 const score = document.querySelector('#score');
 const subBtn = document.querySelector('#submit');
 const refBtn = document.querySelector('.refresh');
+const scoreButton = document.getElementById('scores_button')
+const addButton = document.getElementById('add_button')
+const showAddScoreForm = document.getElementById('add_scores')
+const showScoresSection = document.querySelector('.show_results')
 
 export { // eslint disable-line
   scoreBoard,
@@ -11,4 +15,8 @@ export { // eslint disable-line
   score,
   subBtn,
   refBtn,
+  showAddScoreForm,
+  showScoresSection,
+  scoreButton,
+  addButton
 };

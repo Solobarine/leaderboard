@@ -10,24 +10,30 @@
 		<h1 class="title">Leaderboard</h1>
 	</header>
 	<section id="content">
-	<section class="show-results">
-		<div class="after">
-			<h2 id="recent">Recent Scores</h2>
-			<button type="submit" class="refresh">Refresh</button>
+		<div id="nav">
+			<input id="scores_button" type="submit" value="Hi-Scores">
+			<input id="add_button" type="submit" value="Add Scores">
 		</div>
-		<ul class="results"></ul>
-	</section>
-	<section class="add-input">
-		<h2 id="enter-inputs">Enter Your Score</h2>
-		<form class="form">
-			<input type="text" name="name" id="name" placeholder="Enter Your Name">
-			<input type="text" name="score" id="score" placeholder="Enter Your Score">
-			<button type="submit" id="submit">Submit</button>
-		</form>
-	</section>
+	<section class="options">
+		<section class="show_results hide">
+			<div>
+				<h2 id="recent">Recent Scores</h2>
+				<button type="submit" class="refresh">Refresh</button>
+			</div>
+			<ul class="results"></ul>
+		</section>
+		<section id="add_scores" class="show">
+			<form class="form">
+				<h2>Enter Your Score</h2>
+				<input type="text" name="name" id="name" placeholder="Enter Your Name">
+				<input type="text" name="score" id="score" placeholder="Enter Your Score">
+				<input type="submit" id="submit" value="Submit"/>
+			</form>
+		</section>
+		</section>
 	</section>
 	<footer class="footer">
-		<p class="foot">//</p>
+		<p class="foot">Copyright 2023. &copy;All Rights Reserved</p>
 	</footer>
 </body>
 </html>
